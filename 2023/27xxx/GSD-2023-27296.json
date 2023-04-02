@@ -1,0 +1,170 @@
+{
+    "GSD": {
+        "alias": "CVE-2023-27296",
+        "id": "GSD-2023-27296"
+    },
+    "namespaces": {
+        "cve.org": {
+            "CVE_data_meta": {
+                "ASSIGNER": "security@apache.org",
+                "ID": "CVE-2023-27296",
+                "STATE": "PUBLIC"
+            },
+            "affects": {
+                "vendor": {
+                    "vendor_data": [
+                        {
+                            "product": {
+                                "product_data": [
+                                    {
+                                        "product_name": "Apache InLong",
+                                        "version": {
+                                            "version_data": [
+                                                {
+                                                    "version_affected": "<=",
+                                                    "version_name": "1.1.0",
+                                                    "version_value": "1.5.0"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            "vendor_name": "Apache Software Foundation"
+                        }
+                    ]
+                }
+            },
+            "credits": [
+                {
+                    "lang": "en",
+                    "value": "escape Wang"
+                }
+            ],
+            "data_format": "MITRE",
+            "data_type": "CVE",
+            "data_version": "4.0",
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "eng",
+                        "value": "Deserialization of Untrusted Data vulnerability in Apache Software Foundation Apache InLong. It could be triggered by authenticated users of InLong, you could refer to [1] to know more about this vulnerability. This issue affects Apache InLong: from 1.1.0 through 1.5.0. Users are advised to upgrade to Apache InLong's latest version or cherry-pick [2] to solve it. [1] https://programmer.help/blogs/jdbc-deserialization-vulnerability-learning.html https://programmer.help/blogs/jdbc-deserialization-vulnerability-learning.html [2] https://github.com/apache/inlong/pull/7422 https://github.com/apache/inlong/pull/7422"
+                    }
+                ]
+            },
+            "generator": {
+                "engine": "Vulnogram 0.1.0-dev"
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": [
+                            {
+                                "cweId": "CWE-502",
+                                "lang": "eng",
+                                "value": "CWE-502: Deserialization of Untrusted Data"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "name": "https://lists.apache.org/thread/xbvtjw9bwzgbo9fp1by8o3p49nf59xzt",
+                        "refsource": "MISC",
+                        "url": "https://lists.apache.org/thread/xbvtjw9bwzgbo9fp1by8o3p49nf59xzt"
+                    }
+                ]
+            },
+            "source": {
+                "discovery": "UNKNOWN"
+            }
+        },
+        "nvd.nist.gov": {
+            "configurations": {
+                "CVE_data_version": "4.0",
+                "nodes": [
+                    {
+                        "children": [],
+                        "cpe_match": [
+                            {
+                                "cpe23Uri": "cpe:2.3:a:apache:inlong:*:*:*:*:*:*:*:*",
+                                "cpe_name": [],
+                                "versionEndIncluding": "1.5.0",
+                                "versionStartIncluding": "1.1.0",
+                                "vulnerable": true
+                            }
+                        ],
+                        "operator": "OR"
+                    }
+                ]
+            },
+            "cve": {
+                "CVE_data_meta": {
+                    "ASSIGNER": "security@apache.org",
+                    "ID": "CVE-2023-27296"
+                },
+                "data_format": "MITRE",
+                "data_type": "CVE",
+                "data_version": "4.0",
+                "description": {
+                    "description_data": [
+                        {
+                            "lang": "en",
+                            "value": "Deserialization of Untrusted Data vulnerability in Apache Software Foundation Apache InLong. It could be triggered by authenticated users of InLong, you could refer to [1] to know more about this vulnerability. This issue affects Apache InLong: from 1.1.0 through 1.5.0. Users are advised to upgrade to Apache InLong's latest version or cherry-pick [2] to solve it. [1] https://programmer.help/blogs/jdbc-deserialization-vulnerability-learning.html https://programmer.help/blogs/jdbc-deserialization-vulnerability-learning.html [2] https://github.com/apache/inlong/pull/7422 https://github.com/apache/inlong/pull/7422"
+                        }
+                    ]
+                },
+                "problemtype": {
+                    "problemtype_data": [
+                        {
+                            "description": [
+                                {
+                                    "lang": "en",
+                                    "value": "CWE-502"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "references": {
+                    "reference_data": [
+                        {
+                            "name": "https://lists.apache.org/thread/xbvtjw9bwzgbo9fp1by8o3p49nf59xzt",
+                            "refsource": "MISC",
+                            "tags": [
+                                "Mailing List",
+                                "Patch",
+                                "Vendor Advisory"
+                            ],
+                            "url": "https://lists.apache.org/thread/xbvtjw9bwzgbo9fp1by8o3p49nf59xzt"
+                        }
+                    ]
+                }
+            },
+            "impact": {
+                "baseMetricV3": {
+                    "cvssV3": {
+                        "attackComplexity": "LOW",
+                        "attackVector": "NETWORK",
+                        "availabilityImpact": "HIGH",
+                        "baseScore": 8.8,
+                        "baseSeverity": "HIGH",
+                        "confidentialityImpact": "HIGH",
+                        "integrityImpact": "HIGH",
+                        "privilegesRequired": "LOW",
+                        "scope": "UNCHANGED",
+                        "userInteraction": "NONE",
+                        "vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                        "version": "3.1"
+                    },
+                    "exploitabilityScore": 2.8,
+                    "impactScore": 5.9
+                }
+            },
+            "lastModifiedDate": "2023-03-31T14:21Z",
+            "publishedDate": "2023-03-27T15:15Z"
+        }
+    }
+}

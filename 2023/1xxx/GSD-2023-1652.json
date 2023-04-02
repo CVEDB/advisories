@@ -1,0 +1,113 @@
+{
+    "GSD": {
+        "alias": "CVE-2023-1652",
+        "id": "GSD-2023-1652"
+    },
+    "namespaces": {
+        "cve.org": {
+            "CVE_data_meta": {
+                "ASSIGNER": "secalert@redhat.com",
+                "ID": "CVE-2023-1652",
+                "STATE": "PUBLIC"
+            },
+            "affects": {
+                "vendor": {
+                    "vendor_data": [
+                        {
+                            "product": {
+                                "product_data": [
+                                    {
+                                        "product_name": "Linux Kernel",
+                                        "version": {
+                                            "version_data": [
+                                                {
+                                                    "version_value": "Kernel 6.2 RC5"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            "vendor_name": "n/a"
+                        }
+                    ]
+                }
+            },
+            "data_format": "MITRE",
+            "data_type": "CVE",
+            "data_version": "4.0",
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "eng",
+                        "value": "A use-after-free flaw was found in nfsd4_ssc_setup_dul in fs/nfsd/nfs4proc.c in the NFS filesystem in the Linux Kernel. This issue could allow a local attacker to crash the system or it may lead to a kernel information leak problem."
+                    }
+                ]
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": [
+                            {
+                                "lang": "eng",
+                                "value": "CWE-416"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "name": "https://access.redhat.com/security/cve/cve-2023-1652",
+                        "refsource": "MISC",
+                        "url": "https://access.redhat.com/security/cve/cve-2023-1652"
+                    }
+                ]
+            }
+        },
+        "nvd.nist.gov": {
+            "configurations": {
+                "CVE_data_version": "4.0",
+                "nodes": []
+            },
+            "cve": {
+                "CVE_data_meta": {
+                    "ASSIGNER": "secalert@redhat.com",
+                    "ID": "CVE-2023-1652"
+                },
+                "data_format": "MITRE",
+                "data_type": "CVE",
+                "data_version": "4.0",
+                "description": {
+                    "description_data": [
+                        {
+                            "lang": "en",
+                            "value": "A use-after-free flaw was found in nfsd4_ssc_setup_dul in fs/nfsd/nfs4proc.c in the NFS filesystem in the Linux Kernel. This issue could allow a local attacker to crash the system or it may lead to a kernel information leak problem."
+                        }
+                    ]
+                },
+                "problemtype": {
+                    "problemtype_data": [
+                        {
+                            "description": []
+                        }
+                    ]
+                },
+                "references": {
+                    "reference_data": [
+                        {
+                            "name": "https://access.redhat.com/security/cve/cve-2023-1652",
+                            "refsource": "MISC",
+                            "tags": [],
+                            "url": "https://access.redhat.com/security/cve/cve-2023-1652"
+                        }
+                    ]
+                }
+            },
+            "impact": {},
+            "lastModifiedDate": "2023-03-30T00:34Z",
+            "publishedDate": "2023-03-29T21:15Z"
+        }
+    }
+}
