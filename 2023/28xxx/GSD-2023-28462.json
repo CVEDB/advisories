@@ -1,0 +1,113 @@
+{
+    "GSD": {
+        "alias": "CVE-2023-28462",
+        "id": "GSD-2023-28462"
+    },
+    "namespaces": {
+        "cve.org": {
+            "CVE_data_meta": {
+                "ASSIGNER": "cve@mitre.org",
+                "ID": "CVE-2023-28462",
+                "STATE": "PUBLIC"
+            },
+            "affects": {
+                "vendor": {
+                    "vendor_data": [
+                        {
+                            "product": {
+                                "product_data": [
+                                    {
+                                        "product_name": "n/a",
+                                        "version": {
+                                            "version_data": [
+                                                {
+                                                    "version_value": "n/a"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            "vendor_name": "n/a"
+                        }
+                    ]
+                }
+            },
+            "data_format": "MITRE",
+            "data_type": "CVE",
+            "data_version": "4.0",
+            "description": {
+                "description_data": [
+                    {
+                        "lang": "eng",
+                        "value": "A JNDI rebind operation in the default ORB listener in Payara Server 4.1.2.191 (Enterprise), 5.20.0 and newer (Enterprise), and 5.2020.1 and newer (Community), when Java 1.8u181 and earlier is used, allows remote attackers to load malicious code on the server once a JNDI directory scan is performed."
+                    }
+                ]
+            },
+            "problemtype": {
+                "problemtype_data": [
+                    {
+                        "description": [
+                            {
+                                "lang": "eng",
+                                "value": "n/a"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "references": {
+                "reference_data": [
+                    {
+                        "name": "https://blog.payara.fish/vulnerability-affecting-server-environments-on-java-1.8-on-updates-lower-than-1.8u191",
+                        "refsource": "MISC",
+                        "url": "https://blog.payara.fish/vulnerability-affecting-server-environments-on-java-1.8-on-updates-lower-than-1.8u191"
+                    }
+                ]
+            }
+        },
+        "nvd.nist.gov": {
+            "configurations": {
+                "CVE_data_version": "4.0",
+                "nodes": []
+            },
+            "cve": {
+                "CVE_data_meta": {
+                    "ASSIGNER": "cve@mitre.org",
+                    "ID": "CVE-2023-28462"
+                },
+                "data_format": "MITRE",
+                "data_type": "CVE",
+                "data_version": "4.0",
+                "description": {
+                    "description_data": [
+                        {
+                            "lang": "en",
+                            "value": "A JNDI rebind operation in the default ORB listener in Payara Server 4.1.2.191 (Enterprise), 5.20.0 and newer (Enterprise), and 5.2020.1 and newer (Community), when Java 1.8u181 and earlier is used, allows remote attackers to load malicious code on the server once a JNDI directory scan is performed."
+                        }
+                    ]
+                },
+                "problemtype": {
+                    "problemtype_data": [
+                        {
+                            "description": []
+                        }
+                    ]
+                },
+                "references": {
+                    "reference_data": [
+                        {
+                            "name": "https://blog.payara.fish/vulnerability-affecting-server-environments-on-java-1.8-on-updates-lower-than-1.8u191",
+                            "refsource": "MISC",
+                            "tags": [],
+                            "url": "https://blog.payara.fish/vulnerability-affecting-server-environments-on-java-1.8-on-updates-lower-than-1.8u191"
+                        }
+                    ]
+                }
+            },
+            "impact": {},
+            "lastModifiedDate": "2023-03-31T12:59Z",
+            "publishedDate": "2023-03-30T20:15Z"
+        }
+    }
+}
