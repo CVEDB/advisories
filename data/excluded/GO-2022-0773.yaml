@@ -1,0 +1,7 @@
+excluded: EFFECTIVELY_PRIVATE
+modules:
+  - module: github.com/grafana/grafana
+cves:
+  - CVE-2021-27358
+ghsas:
+  - GHSA-h5rh-w6vm-9ghc

@@ -1,0 +1,7 @@
+excluded: NOT_IMPORTABLE
+modules:
+  - module: github.com/cloudflare/cloudflared
+cves:
+  - CVE-2020-24356
+ghsas:
+  - GHSA-hgwp-4vp4-qmm2

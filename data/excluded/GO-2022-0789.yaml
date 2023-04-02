@@ -1,0 +1,7 @@
+excluded: NOT_IMPORTABLE
+modules:
+  - module: github.com/git-lfs/git-lfs
+cves:
+  - CVE-2020-27955
+ghsas:
+  - GHSA-4g4p-42wc-9f3m

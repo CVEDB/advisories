@@ -1,0 +1,7 @@
+excluded: NOT_IMPORTABLE
+modules:
+  - module: code.gitea.io/gitea
+cves:
+  - CVE-2021-28378
+ghsas:
+  - GHSA-g95p-88p4-76cm

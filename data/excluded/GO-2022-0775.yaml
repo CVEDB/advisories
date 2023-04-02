@@ -1,0 +1,7 @@
+excluded: EFFECTIVELY_PRIVATE
+modules:
+  - module: github.com/binance-chain/tss-lib
+cves:
+  - CVE-2020-26240
+ghsas:
+  - GHSA-v592-xf75-856p

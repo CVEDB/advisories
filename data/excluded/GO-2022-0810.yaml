@@ -1,0 +1,7 @@
+excluded: NOT_IMPORTABLE
+modules:
+  - module: istio.io/istio
+cves:
+  - CVE-2020-16844
+ghsas:
+  - GHSA-82mm-ffjr-h86c

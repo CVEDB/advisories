@@ -1,0 +1,7 @@
+excluded: NOT_IMPORTABLE
+modules:
+  - module: github.com/ory/oathkeeper
+cves:
+  - CVE-2021-32701
+ghsas:
+  - GHSA-vfvf-6gx5-mqv6

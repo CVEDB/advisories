@@ -1,0 +1,7 @@
+excluded: NOT_IMPORTABLE
+modules:
+  - module: github.com/keycloak/keycloak-gatekeeper
+cves:
+  - CVE-2020-14359
+ghsas:
+  - GHSA-jh6m-3pqw-242h

@@ -1,0 +1,7 @@
+excluded: NOT_IMPORTABLE
+modules:
+  - module: github.com/jaegertracing/jaeger
+cves:
+  - CVE-2020-10750
+ghsas:
+  - GHSA-gh32-pc56-4c96

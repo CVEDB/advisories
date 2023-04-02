@@ -1,0 +1,7 @@
+excluded: NOT_IMPORTABLE
+modules:
+  - module: k8s.io/ingress-nginx
+cves:
+  - CVE-2021-25745
+ghsas:
+  - GHSA-pvmg-xgmx-9mxh

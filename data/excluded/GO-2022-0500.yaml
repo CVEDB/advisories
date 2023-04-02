@@ -1,0 +1,7 @@
+excluded: EFFECTIVELY_PRIVATE
+modules:
+  - module: github.com/kubeedge/kubeedge
+cves:
+  - CVE-2022-31076
+ghsas:
+  - GHSA-8f4f-v9x5-cg6j

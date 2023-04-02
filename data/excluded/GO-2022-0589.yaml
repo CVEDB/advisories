@@ -1,0 +1,7 @@
+excluded: EFFECTIVELY_PRIVATE
+modules:
+  - module: github.com/heroiclabs/nakama
+cves:
+  - CVE-2022-2306
+ghsas:
+  - GHSA-xv59-gc3r-rf92

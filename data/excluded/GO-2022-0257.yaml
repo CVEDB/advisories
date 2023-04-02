@@ -1,0 +1,7 @@
+excluded: NOT_GO_CODE
+modules:
+  - module: github.com/opencontainers/distribution-spec
+cves:
+  - CVE-2021-41190
+ghsas:
+  - GHSA-mc8v-mgrf-8f4m

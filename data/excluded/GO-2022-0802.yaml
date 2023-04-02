@@ -1,0 +1,7 @@
+excluded: NOT_IMPORTABLE
+modules:
+  - module: github.com/kubernetes/kubernetes
+cves:
+  - CVE-2019-11251
+ghsas:
+  - GHSA-6qfg-8799-r575

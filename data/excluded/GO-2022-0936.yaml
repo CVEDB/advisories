@@ -1,0 +1,7 @@
+excluded: NOT_IMPORTABLE
+modules:
+  - module: github.com/in-toto/in-toto-golang
+cves:
+  - CVE-2021-41087
+ghsas:
+  - GHSA-vrxp-mg9f-hwf3

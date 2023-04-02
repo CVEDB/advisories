@@ -1,0 +1,7 @@
+excluded: NOT_GO_CODE
+modules:
+  - module: github.com/siderolabs/talos
+cves:
+  - CVE-2022-39190
+ghsas:
+  - GHSA-jr8j-2jhp-m67v
