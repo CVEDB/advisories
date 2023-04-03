@@ -1,0 +1,7 @@
+excluded: NOT_IMPORTABLE
+modules:
+  - module: github.com/gravitl/netmaker
+cves:
+  - CVE-2022-36110
+ghsas:
+  - GHSA-ggf6-638m-vqmg

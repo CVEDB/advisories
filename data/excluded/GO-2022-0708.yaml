@@ -1,0 +1,7 @@
+excluded: NOT_IMPORTABLE
+modules:
+  - module: github.com/moby/moby
+cves:
+  - CVE-2015-3631
+ghsas:
+  - GHSA-v4h8-794j-g8mm

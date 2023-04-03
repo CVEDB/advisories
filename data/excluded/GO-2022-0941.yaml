@@ -1,0 +1,7 @@
+excluded: EFFECTIVELY_PRIVATE
+modules:
+  - module: github.com/ethereum/go-ethereum
+cves:
+  - CVE-2022-37450
+ghsas:
+  - GHSA-rqmg-hrg4-fm69

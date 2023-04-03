@@ -1,0 +1,7 @@
+excluded: NOT_IMPORTABLE
+modules:
+  - module: github.com/goharbor/harbor
+cves:
+  - CVE-2019-19026
+ghsas:
+  - GHSA-w4x5-jqq4-qc8x

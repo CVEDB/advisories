@@ -1,0 +1,7 @@
+excluded: NOT_IMPORTABLE
+modules:
+  - module: github.com/spiffe/spire
+cves:
+  - CVE-2021-27098
+ghsas:
+  - GHSA-h746-rm5q-8mgq

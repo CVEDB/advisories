@@ -1,0 +1,7 @@
+excluded: NOT_IMPORTABLE
+modules:
+  - module: github.com/go-ldap/ldap
+cves:
+  - CVE-2017-14623
+ghsas:
+  - GHSA-x27w-qxhg-343v

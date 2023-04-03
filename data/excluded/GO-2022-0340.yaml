@@ -1,0 +1,7 @@
+excluded: EFFECTIVELY_PRIVATE
+modules:
+  - module: github.com/google/fscrypt
+cves:
+  - CVE-2022-25327
+ghsas:
+  - GHSA-8vwm-8vj8-rqjf

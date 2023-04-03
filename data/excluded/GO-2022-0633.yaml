@@ -1,0 +1,7 @@
+excluded: EFFECTIVELY_PRIVATE
+modules:
+  - module: istio.io/istio
+cves:
+  - CVE-2019-12243
+ghsas:
+  - GHSA-6g5f-f5pm-mjrg

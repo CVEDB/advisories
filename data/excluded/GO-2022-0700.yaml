@@ -1,0 +1,7 @@
+excluded: EFFECTIVELY_PRIVATE
+modules:
+  - module: github.com/kiali/kiali
+cves:
+  - CVE-2021-20278
+ghsas:
+  - GHSA-ggjr-2f7v-vhq4

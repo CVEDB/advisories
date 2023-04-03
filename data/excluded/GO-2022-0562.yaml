@@ -1,0 +1,7 @@
+excluded: NOT_IMPORTABLE
+modules:
+  - module: gogs.io/gogs
+cves:
+  - CVE-2022-1993
+ghsas:
+  - GHSA-6vcc-v9vw-g2x5

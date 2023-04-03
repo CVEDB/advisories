@@ -1,0 +1,7 @@
+excluded: EFFECTIVELY_PRIVATE
+modules:
+  - module: github.com/argoproj/argo-cd
+cves:
+  - CVE-2022-31016
+ghsas:
+  - GHSA-jhqp-vf4w-rpwq

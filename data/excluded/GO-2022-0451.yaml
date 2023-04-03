@@ -1,0 +1,7 @@
+excluded: NOT_IMPORTABLE
+modules:
+  - module: github.com/coreos/ignition
+cves:
+  - CVE-2022-1706
+ghsas:
+  - GHSA-hj57-j5cw-2mwp

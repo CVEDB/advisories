@@ -1,0 +1,7 @@
+excluded: EFFECTIVELY_PRIVATE
+modules:
+  - module: github.com/istio/istio
+cves:
+  - CVE-2022-23635
+ghsas:
+  - GHSA-856q-xv3c-7f2f

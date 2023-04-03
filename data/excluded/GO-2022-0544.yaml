@@ -1,0 +1,7 @@
+excluded: EFFECTIVELY_PRIVATE
+modules:
+  - module: github.com/caddyserver/caddy
+cves:
+  - CVE-2022-34037
+ghsas:
+  - GHSA-m7gr-5w5g-36jf

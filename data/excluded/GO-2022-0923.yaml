@@ -1,0 +1,7 @@
+excluded: NOT_IMPORTABLE
+modules:
+  - module: github.com/traefik/traefik
+cves:
+  - CVE-2021-32813
+ghsas:
+  - GHSA-m697-4v8f-55qg

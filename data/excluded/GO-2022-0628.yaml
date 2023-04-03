@@ -1,0 +1,7 @@
+excluded: EFFECTIVELY_PRIVATE
+modules:
+  - module: github.com/ovn-org/ovn-kubernetes
+cves:
+  - CVE-2021-3499
+ghsas:
+  - GHSA-57v4-m9jx-mh8r
