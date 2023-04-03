@@ -1,0 +1,7 @@
+excluded: EFFECTIVELY_PRIVATE
+modules:
+  - module: github.com/kiali/kiali
+cves:
+  - CVE-2020-1764
+ghsas:
+  - GHSA-64rh-r86q-75ff

@@ -1,0 +1,7 @@
+excluded: EFFECTIVELY_PRIVATE
+modules:
+  - module: github.com/concourse/concourse
+cves:
+  - CVE-2019-3792
+ghsas:
+  - GHSA-4fqx-74rv-638w

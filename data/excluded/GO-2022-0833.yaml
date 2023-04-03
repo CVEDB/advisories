@@ -1,0 +1,7 @@
+excluded: NOT_IMPORTABLE
+modules:
+  - module: github.com/appc/docker2aci
+cves:
+  - CVE-2016-8579
+ghsas:
+  - GHSA-gfh2-7jg5-653p

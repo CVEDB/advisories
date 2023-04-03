@@ -1,46 +1,31 @@
-# Python Packaging Advisory Database
+# The Go Vulnerability Database
 
-This is community owned repository of advisories for packages published on
-https://pypi.org.
+[![Go Reference](https://pkg.go.dev/badge/golang.org/x/vulndb.svg)](https://pkg.go.dev/golang.org/x/vulndb)
 
-Advisories live in the [vulns](vulns/) directory and use a YAML encoding of
-a [simple format](https://ossf.github.io/osv-schema/).
+This repository contains the infrastructure and internal reports to create the
+[Go Vulnerability Database](https://vuln.go.dev).
 
-## Contributing advisories
+If you are interested accessing data from the Go Vulnerability Database, see
+[x/vuln](https://golang.org/x/vuln).
 
-### Making a pull request
-Existing entries can be edited by simply creating a pull request.
+Check out [https://go.dev/security/vuln](https://go.dev/security/vuln) for more
+information about the Go vulnerability management system.
 
-To introduce a new entry, create a pull request with a new file that has a name
-matching `PYSEC-0000-<anything>.yaml`. This will be later picked up by
-automation to allocate a proper ID once merged.
+## Reporting a vulnerability or feedback
 
-### Triage process
-Much of the existing set of vulnerabilities are collected from the
-[NVD CVE](https://nvd.nist.gov/vuln/data-feeds) feed.
+[Click here](https://github.com/golang/vulndb/issues/new/choose) to report a
+public vulnerability in the Go ecosystem, or give feedback about the project.
 
-We use [this tool](https://github.com/google/osv/tree/master/vulnfeeds), which
-performs a lot of heuristics to match CVEs with exact Python packages and
-versions (which is a difficult problem!) and a small amount of human triage to
-generate the `.yaml` entries here.
+## Privacy Policy
 
-## Using this data
-Vulnerabilities are integrated into the
-[Open Source Vulnerabilities](https://osv.dev) project, which provides an API to
-query for vulnerabilities like so:
+The privacy policy for `govulncheck` can be found at
+[https://vuln.go.dev/privacy](https://vuln.go.dev/privacy.html).
 
-```bash
-$ curl -X POST -d \
-          '{"version": "2.4.1", "package": {"name": "jinja2", "ecosystem": "PyPI"}}' \
-          "https://api.osv.dev/v1/query"
-```
+## License
 
-Longer term, we are working with the PyPI team to
-[build a pipeline](https://github.com/pypa/warehouse/issues/9407) to
-automatically get these vulnerabilities into PyPI. The goal is to
-have the `pip install` (and an additional `pip audit`) command automatically
-report vulnerabilities out of the box.
+Unless otherwise noted, the Go source files are distributed under
+the BSD-style license found in the LICENSE file.
 
-## Code of Conduct
-Everyone interacting with this project is expected to follow the
-[PSF Code of Conduct](https://github.com/pypa/.github/blob/main/CODE_OF_CONDUCT.md).
+Database entries are distributed under the terms of the
+[CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) license. See
+[x/vuln](https://golang.org/x/vuln) for information on how to access these entries.

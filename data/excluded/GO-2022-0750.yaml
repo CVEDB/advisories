@@ -1,0 +1,7 @@
+excluded: NOT_IMPORTABLE
+modules:
+  - module: github.com/elastic/cloud-on-k8s
+cves:
+  - CVE-2020-7010
+ghsas:
+  - GHSA-vfp4-xx6m-7vf6

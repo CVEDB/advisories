@@ -1,0 +1,7 @@
+excluded: EFFECTIVELY_PRIVATE
+modules:
+  - module: github.com/goharbor/harbor
+cves:
+  - CVE-2022-31671
+ghsas:
+  - GHSA-q76q-q8hw-hmpw

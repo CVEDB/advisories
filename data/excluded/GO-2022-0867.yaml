@@ -1,0 +1,7 @@
+excluded: NOT_IMPORTABLE
+modules:
+  - module: github.com/kubernetes/kubernetes
+cves:
+  - CVE-2020-8551
+ghsas:
+  - GHSA-qhm4-jxv7-j9pq

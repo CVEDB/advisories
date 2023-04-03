@@ -1,0 +1,7 @@
+excluded: EFFECTIVELY_PRIVATE
+modules:
+  - module: github.com/mattermost/mattermost-server
+cves:
+  - CVE-2022-1982
+ghsas:
+  - GHSA-gwpf-95jc-63rv

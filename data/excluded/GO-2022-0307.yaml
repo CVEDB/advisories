@@ -1,0 +1,7 @@
+excluded: EFFECTIVELY_PRIVATE
+modules:
+  - module: github.com/nats-io/nats-server
+cves:
+  - CVE-2022-24450
+ghsas:
+  - GHSA-g6w6-r76c-28j7

@@ -1,0 +1,7 @@
+excluded: EFFECTIVELY_PRIVATE
+modules:
+  - module: github.com/gravitl/netmaker
+cves:
+  - CVE-2022-23650
+ghsas:
+  - GHSA-86f3-hf24-76q4

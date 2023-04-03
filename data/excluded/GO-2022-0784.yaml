@@ -1,0 +1,7 @@
+excluded: NOT_IMPORTABLE
+modules:
+  - module: github.com/containerd/containerd
+cves:
+  - CVE-2020-15257
+ghsas:
+  - GHSA-36xw-fx78-c5r4

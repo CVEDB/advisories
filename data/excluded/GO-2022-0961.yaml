@@ -1,0 +1,7 @@
+excluded: NOT_IMPORTABLE
+modules:
+  - module: github.com/zitadel/zitadel
+cves:
+  - CVE-2022-36051
+ghsas:
+  - GHSA-c8fj-4pm8-mp2c

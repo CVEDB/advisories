@@ -1,0 +1,7 @@
+excluded: NOT_IMPORTABLE
+modules:
+  - module: helm.sh/helm/v3
+cves:
+  - CVE-2020-15187
+ghsas:
+  - GHSA-c52f-pq47-2r9j

@@ -1,0 +1,7 @@
+excluded: EFFECTIVELY_PRIVATE
+modules:
+  - module: github.com/gphper/ginadmin
+cves:
+  - CVE-2022-30428
+ghsas:
+  - GHSA-5824-6jfv-xr3r

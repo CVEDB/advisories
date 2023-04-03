@@ -1,0 +1,7 @@
+excluded: EFFECTIVELY_PRIVATE
+modules:
+  - module: github.com/foxcpp/maddy
+cves:
+  - CVE-2021-42583
+ghsas:
+  - GHSA-5r5w-h76p-m726

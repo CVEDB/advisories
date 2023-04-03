@@ -1,0 +1,7 @@
+excluded: EFFECTIVELY_PRIVATE
+modules:
+  - module: gogs.io/gogs
+cves:
+  - CVE-2014-8683
+ghsas:
+  - GHSA-9hx4-qm7h-x84j

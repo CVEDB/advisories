@@ -1,0 +1,7 @@
+excluded: EFFECTIVELY_PRIVATE
+modules:
+  - module: github.com/containers/podman
+cves:
+  - CVE-2021-4024
+ghsas:
+  - GHSA-3cf2-x423-x582

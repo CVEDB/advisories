@@ -1,0 +1,7 @@
+excluded: EFFECTIVELY_PRIVATE
+modules:
+  - module: github.com/concourse/concourse
+cves:
+  - CVE-2018-15798
+ghsas:
+  - GHSA-9689-rx4v-cqgc

@@ -1,0 +1,7 @@
+excluded: EFFECTIVELY_PRIVATE
+modules:
+  - module: github.com/mindoc-org/mindoc
+cves:
+  - CVE-2022-29637
+ghsas:
+  - GHSA-f7ff-xf87-f22q
